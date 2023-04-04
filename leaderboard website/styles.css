@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    display:grid;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #2894ff
+}
+
+tr:nth-child(odd){
+    background-color: #d2e9ff;
+}
