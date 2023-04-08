@@ -1,5 +1,6 @@
 {
     "cSpell.ignoreWords": [
         "leaderbooard"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/leaderboard_website/index.html"
 }
