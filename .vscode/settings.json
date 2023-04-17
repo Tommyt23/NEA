@@ -2,5 +2,8 @@
     "cSpell.ignoreWords": [
         "leaderbooard"
     ],
-    "livePreview.defaultPreviewPath": "/leaderboard_website/index.html"
+    "livePreview.defaultPreviewPath": "/leaderboard_website/index.html",
+    "cSpell.words": [
+        "leaderboard"
+    ]
 }
