@@ -31,25 +31,30 @@ func _ready():
 #	get_node("game_back").move(Vector2(0,0))	
 
 func Settings_pressed():
+	$Buttonsound.play()
 	get_node("Menu").move(Vector2(-576, 475))
 	get_node("Settings").move(Vector2(0, 475))
 	get_node("back").move(Vector2(-576, 0))
 
 func back_pressed():
+	$Buttonsound.play()
 	get_node("Menu").move(Vector2(0, 475))
 	get_node("Settings").move(Vector2(576, 475))
 	get_node("back").move(Vector2(0, 0))
 
 func game_back_pressed():
+	$Buttonsound.play()
 	get_node("game_back").move(Vector2(0, 1024))
 	get_node("MainGame").move(Vector2(0, 1024))
 
 func volume_pressed():
+	$Buttonsound.play()
 	get_node("Volume").move(Vector2(0, 312))
 	get_node("back").move(Vector2(-1024, 0))
 	get_node("settings_back").move(Vector2(0, 0))
 	
 func settings_back_pressed():
+	$Buttonsound.play()
 	get_node("back").move(Vector2(-576, 0))
 	get_node("Volume").move(Vector2(1024, 312))
 	get_node("settings_back").move(Vector2(1024, 0))
@@ -58,6 +63,7 @@ func settings_back_pressed():
 
 
 func Brighness_pressed():
+	$Buttonsound.play()
 	get_node("settings_back").move(Vector2(0, 0))
 	get_node("back").move(Vector2(-1024, 0))
 	get_node("Brightness").move(Vector2(13, 312))
@@ -85,14 +91,17 @@ func username_entered(new_text):
 
 
 func username_pressed():
+	$Buttonsound.play()
 	get_node("Username").move(Vector2(0, 312))
 	get_node("back").move(Vector2(-1024, 0))
 	get_node("settings_back").move(Vector2(0, 0))
 
 
 func _on_Start_pressed():
+	$Buttonsound.play()
 	get_tree().change_scene("res://Scenes//Game.tscn")
 
 
 func _on_LeaderBoard_pressed():
+	$Buttonsound.play()
 	OS.shell_open("http://docs.godotengine.org/en/3.0/classes/class_os.html#class-os-shell-open")
