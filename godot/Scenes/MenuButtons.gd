@@ -14,12 +14,14 @@ var master_bus = AudioServer.get_bus_index("Master")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	#retrieve username
 	var file = File.new()
 	file.open(username_file, file.READ)
 	var username = file.get_as_text()
 	line_text.text = username
 	file.close()
 	
+	#retrieve volume
 	file.open(volume_file, file.READ)
 	var volume = file.get_float()
 	hslider.value = volume

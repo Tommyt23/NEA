@@ -1,24 +1,29 @@
-h1{
-    font-family: 'Roboto', sans-serif;
-    display:grid;
-    justify-content: center;
+/* Styling for h1 element */
+h1 {
+font-family: 'Roboto', sans-serif; /* Set font family to Roboto */
+display: grid; /* Use grid display */
+justify-content: center; /* Center align content horizontally */
 }
 
-table{
-    border-collapse: collapse;
-    width: 100%;
+/* Styling for table element */
+table {
+border-collapse: collapse; /* Collapse table borders */
+width: 100%; /* Set table width to 100% of parent element */
 }
 
-td, th{
-    border: 1px solid #000;
-    text-align: left;
-    padding: 8px;
+/* Styling for td and th elements */
+td, th {
+border: 1px solid #000; /* Set border to 1px solid black */
+text-align: left; /* Set text alignment to left */
+padding: 8px; /* Set padding to 8px */
 }
 
-tr:nth-child(even){
-    background-color: #2894ff
+/* Styling for even rows of the table */
+tr:nth-child(even) {
+background-color: #2894ff; /* Set background color to #2894ff */
 }
 
-tr:nth-child(odd){
-    background-color: #d2e9ff;
+/* Styling for odd rows of the table */
+tr:nth-child(odd) {
+background-color: #d2e9ff; /* Set background color to #d2e9ff */
 }
